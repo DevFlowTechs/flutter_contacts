@@ -24,6 +24,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
+    namespace 'com.fix.contacts_service'
 
     defaultConfig {
         minSdkVersion 16
